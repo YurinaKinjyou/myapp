@@ -1,0 +1,8 @@
+<h2>詳細を見る（＾ω＾）</h2>
+<div class="post_wrap">
+<%= @post.content %>
+<div class="show_btn">
+    <%= link_to("編集", "/post/#{@post.id}/edit") %>
+    <%= link_to("削除", "/post/delete/#{@post.id}", {method:'post'}) %>
+</div>
+</div>

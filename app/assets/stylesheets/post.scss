@@ -1,0 +1,69 @@
+// Place all the styles related to the post controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main_container {
+    background:#ffb066;
+    // height: 100%;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+h2 {
+    line-height: 50px;
+    color: #fff;
+}
+
+.post_wrap {
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.post_wrap a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.new_post_submit {
+    display: block;
+    border: none;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+    box-shadow: 0 4px 0 #1e90ff;
+    color: #fff;
+    outline: none;
+}
+
+.new_post_submit:active {
+    box-shadow: 0 1px 0 #1e90ff;
+    margin-top: 13px;
+    cursor: pointer;
+    outline: none;
+    border-color: none;
+}
+
+.show_btn {
+    text-align: right;
+    font-size: 14px;
+
+}
+
+.index_scroll {
+    overflow: scroll;
+    height: 80vh;
+}
+
+.post_day {
+    font-size: 12px;
+    margin-top: 10px;
+}

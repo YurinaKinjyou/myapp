@@ -1,0 +1,34 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*基本色*/
+:root {
+    --text-bright-color: #fff;
+}
+
+.brit-color {
+    color: var(--text-bright-color);
+}
+
+.main_container {
+    background:#ffb066;
+    height: 100vh;
+}
+
+.main_icon {
+    background-image: url("/main_icon.png");
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 25vh;
+}
+
+.conA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

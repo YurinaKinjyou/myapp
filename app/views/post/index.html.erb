@@ -1,0 +1,10 @@
+
+<h2>ぽちぽち投稿ー♫</h2>
+<div class="index_scroll">
+<% @post.each do |post| %>
+    <div class="post_wrap">
+    <%= link_to(post.content, "post/#{post.id}") %>
+    <p class="post_day"><%= post.created_at %></p>
+    </div>
+<% end %>
+</div>

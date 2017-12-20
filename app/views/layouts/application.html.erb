@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>App</title>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <div class="main_container">
+  <header>
+  <div class="container">
+  <div class="header_container">
+    <div class="logo"><%= link_to("ハム助の独り言", "/") %></div>
+    <div class="post">
+      <div class="index"><%= link_to("一覧", "/index")%></div>
+      <div class="new"><%= link_to("投稿", "/post/new")%></div>
+    </div>
+    </div>
+  </header>
+    <div class="container">
+    <%= yield %>
+    </div>
+  </div>
+  </body>
+</html>

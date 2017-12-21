@@ -23,6 +23,10 @@ header {
      font-family: "Rounded Mplus 1c";
  }
 
+ h2 {
+     display: inline-block;
+ }
+
 .header_container {
     display: flex;
     justify-content: space-between;
@@ -85,4 +89,11 @@ header {
      outline: none;
      border-radius: 10px;
  }
+
+
+.flash_update {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 1em;
+}
 

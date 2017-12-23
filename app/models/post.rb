@@ -1,5 +1,7 @@
 class Post < ApplicationRecord
-    validates :content, {presence: true, length: {maximum: 140}}
+    # validates :content, {presence: true, length: {maximum: 140} message: ""}
+    validates :content, presence: {message: "入力されてないよ！"}
+    validates :content, length: {maximum: 140, message: "140字以内に入力してね！"}
     # validate :add_error
  
     # def add_error
